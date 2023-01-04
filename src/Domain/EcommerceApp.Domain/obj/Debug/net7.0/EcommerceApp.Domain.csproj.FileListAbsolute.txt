@@ -1,0 +1,12 @@
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Domain\EcommerceApp.Domain\bin\Debug\net7.0\EcommerceApp.Domain.deps.json
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Domain\EcommerceApp.Domain\bin\Debug\net7.0\EcommerceApp.Domain.dll
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Domain\EcommerceApp.Domain\bin\Debug\net7.0\EcommerceApp.Domain.pdb
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Domain\EcommerceApp.Domain\obj\Debug\net7.0\EcommerceApp.Domain.csproj.AssemblyReference.cache
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Domain\EcommerceApp.Domain\obj\Debug\net7.0\EcommerceApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Domain\EcommerceApp.Domain\obj\Debug\net7.0\EcommerceApp.Domain.AssemblyInfoInputs.cache
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Domain\EcommerceApp.Domain\obj\Debug\net7.0\EcommerceApp.Domain.AssemblyInfo.cs
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Domain\EcommerceApp.Domain\obj\Debug\net7.0\EcommerceApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Domain\EcommerceApp.Domain\obj\Debug\net7.0\EcommerceApp.Domain.dll
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Domain\EcommerceApp.Domain\obj\Debug\net7.0\refint\EcommerceApp.Domain.dll
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Domain\EcommerceApp.Domain\obj\Debug\net7.0\EcommerceApp.Domain.pdb
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Domain\EcommerceApp.Domain\obj\Debug\net7.0\ref\EcommerceApp.Domain.dll
