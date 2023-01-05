@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\mvc\\EcommerceApp\\src\\Presentation\\EcommerceApp.Presentation\\wwwroot\\images\\MicrosoftTeams-image (7).png",
+      "PackagePath": "staticwebassets\\images\\MicrosoftTeams-image (7).png"
+    },
+    {
       "Id": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\mvc\\EcommerceApp\\src\\Presentation\\EcommerceApp.Presentation\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

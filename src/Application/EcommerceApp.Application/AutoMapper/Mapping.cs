@@ -1,4 +1,7 @@
 ﻿using AutoMapper;
+using EcommerceApp.Application.Models.DTOs;
+using EcommerceApp.Application.Models.VMs;
+using EcommerceApp.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,11 +10,12 @@ using System.Threading.Tasks;
 
 namespace EcommerceApp.Application.AutoMapper
 {
-    public class Mapping:Profile
+    public class Mapping : Profile
     {
         public Mapping()
         {
-            //maping 
+            CreateMap<Employee, AddManagerDTO>().ReverseMap();
+            CreateMap<Employee, ListOfManagerVM>().ReverseMap();
         }
     }
 }

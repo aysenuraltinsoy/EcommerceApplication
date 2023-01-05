@@ -10,3 +10,8 @@ C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Application\EcommerceApp.A
 C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Application\EcommerceApp.Application\obj\Debug\net7.0\refint\EcommerceApp.Application.dll
 C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Application\EcommerceApp.Application\obj\Debug\net7.0\EcommerceApp.Application.pdb
 C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Application\EcommerceApp.Application\obj\Debug\net7.0\ref\EcommerceApp.Application.dll
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Application\EcommerceApp.Application\bin\Debug\net7.0\EcommerceApp.Domain.dll
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Application\EcommerceApp.Application\bin\Debug\net7.0\EcommerceApp.Domain.pdb
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Application\EcommerceApp.Application\obj\Debug\net7.0\EcommerceApp.Application.csproj.CopyComplete
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Application\EcommerceApp.Application\bin\Debug\net7.0\Ecommerce.Infrastructure.dll
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Application\EcommerceApp.Application\bin\Debug\net7.0\Ecommerce.Infrastructure.pdb

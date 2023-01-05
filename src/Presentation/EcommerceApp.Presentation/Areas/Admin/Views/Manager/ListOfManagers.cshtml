@@ -1,0 +1,49 @@
+﻿@model IEnumerable<EcommerceApp.Application.Models.VMs.ListOfManagerVM>
+
+@{
+    ViewData["Title"] = "ListOfManagers";
+}
+
+<h1>ListOfManagers</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+    
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            
+            <th>
+               Name
+            </th>
+            <th>
+                Surname
+            </th>
+            <th>
+                Roles
+            </th>
+            @*<th></th>*@
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Surname
+            </td>
+            <td>
+                @item.Roles.ToString()
+            </td>
+            <td>
+               @* @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
