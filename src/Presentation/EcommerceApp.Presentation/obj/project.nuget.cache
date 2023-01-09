@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I76li7LnKs0Ou++9R/0j+bDZGNODX5ztaRSMt/aFsVwS75VMswJlHyUaCkBOT1hsW1Zz76zz8dpts2kSLDjtJA==",
+  "dgSpecHash": "B9W1g3XIjkiKOz+yryO1OHx3Hn7xNnSDKuC+lyKEQ+WfoYeI3X1G52YBYunqbyRnfE4w1BKdHcZKAMsZn3nPuA==",
   "success": true,
   "projectFilePath": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\mvc\\EcommerceApp\\src\\Presentation\\EcommerceApp.Presentation\\EcommerceApp.Presentation.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\aalti\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\aalti\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

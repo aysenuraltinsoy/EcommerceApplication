@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Presentation\EcommerceApp.Presentation
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/EcommerceApp/src/Presentation/EcommerceApp.Presentation/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/aalti/Desktop/BilgeAdam/mvc/EcommerceApp/src/Presentation/EcommerceApp.Presentation/Areas/Admin/Views/Manager/AddManager.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFuYWdlclxBZGRNYW5hZ2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/aalti/Desktop/BilgeAdam/mvc/EcommerceApp/src/Presentation/EcommerceApp.Presentation/Areas/Admin/Views/Manager/ListOfManagers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFuYWdlclxMaXN0T2ZNYW5hZ2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/EcommerceApp/src/Presentation/EcommerceApp.Presentation/Areas/Admin/Views/Manager/UpdateManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFuYWdlclxVcGRhdGVNYW5hZ2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/aalti/Desktop/BilgeAdam/mvc/EcommerceApp/src/Presentation/EcommerceApp.Presentation/Areas/Admin/Views/Shared/Error.cshtml]
@@ -50,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/aalti/Desktop/BilgeAdam/mvc/EcommerceApp/src/Presentation/EcommerceApp.Presentation/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aalti/Desktop/BilgeAdam/mvc/EcommerceApp/src/Presentation/EcommerceApp.Presentation/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/aalti/Desktop/BilgeAdam/mvc/EcommerceApp/src/Presentation/EcommerceApp.Presentation/Views/Shared/Error.cshtml]

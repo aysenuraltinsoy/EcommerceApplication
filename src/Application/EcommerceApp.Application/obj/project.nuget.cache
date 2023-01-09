@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mVbGd64gaklY3iBrchHiPGhmQvcp9hZ7em8GCUpxvO7orms85FYgaUTdi/yPfFXEW0vApZ0Nu7UzCr49KOmpvg==",
+  "dgSpecHash": "R6amhjiVIM/MhzgXwexqcXhl02sN+KQr13Rk9FkNtrURo/dtno9XrWyn/E79RDhNO5n2yQVOQRW3hnuJmjnC9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\mvc\\EcommerceApp\\src\\Application\\EcommerceApp.Application\\EcommerceApp.Application.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\aalti\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\aalti\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

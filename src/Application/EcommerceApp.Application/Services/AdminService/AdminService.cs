@@ -27,6 +27,7 @@ namespace EcommerceApp.Application.Services.AdminService
 
         public async Task CreateManager(AddManagerDTO addManagerDTO)
         {
+            
             var addEmployee = _mapper.Map<Employee>(addManagerDTO);
             if (addEmployee.UploadPath!=null)
             {
@@ -53,13 +54,55 @@ namespace EcommerceApp.Application.Services.AdminService
                 Id = x.Id,
                 Name = x.Name,
                 Surname = x.Surname,
-                Roles = x.Roles
+                Roles = x.Roles,
+                ImagePath=x.ImagePath
 
             },
-            where: x => (x.Status == Status.Active && x.Roles == Roles.Manager),
+            where: x => ((x.Status == Status.Active || x.Status == Status.Modified) && x.Roles == Roles.Manager ),
             orderBy: x => x.OrderBy(x => x.Name));
 
             return managers;
+        }
+
+        public async Task<UpdateManagerDTO> GetManager(Guid id)
+        {
+            var manager =await _employeeRepo.GetFilteredFirstOrDefault(
+                select: x => new UpdateManagerVM
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Surname = x.Surname,
+                    ImagePath = x.ImagePath
+                    
+                }, where: x=>x.Id==id);
+            var updateManagerDTO=_mapper.Map<UpdateManagerDTO>(manager);
+            return updateManagerDTO;
+        }
+        public async Task UpdateManager(UpdateManagerDTO updateManagerDTO)
+        {
+            var model=await _employeeRepo.GetDefault(x=>x.Id==updateManagerDTO.Id);
+            model.Name= updateManagerDTO.Name;
+            model.Surname= updateManagerDTO.Surname;
+            
+            model.UpdateDate= updateManagerDTO.UpdateDate;
+            model.Status= updateManagerDTO.Status;
+            using var image = Image.Load(updateManagerDTO.UploadPath.OpenReadStream());
+            image.Mutate(x => x.Resize(600, 560)); //picture size fixed
+
+            Guid guid = Guid.NewGuid();
+            image.Save($"wwwroot/images/{guid}.jpg");
+
+            model.ImagePath = ($"/images/{guid}.jpg");
+            await _employeeRepo.Update(model);
+        }
+
+        public async Task DeleteManager(Guid id)
+        {
+            var model =await _employeeRepo.GetDefault(x=>x.Id==id); 
+
+            model.DeleteDate= DateTime.Now;
+            model.Status = Status.Passive;
+            await _employeeRepo.Delete(model);
         }
     }
 }

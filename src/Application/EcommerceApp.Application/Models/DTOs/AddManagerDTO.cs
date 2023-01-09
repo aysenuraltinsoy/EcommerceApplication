@@ -12,20 +12,21 @@ namespace EcommerceApp.Application.Models.DTOs
 {
     public class AddManagerDTO
     {
-        public Guid Id { get; set; }=Guid.NewGuid();
+        public Guid Id =>Guid.NewGuid();
         [Required(ErrorMessage="Can not be empty!")]
         [MaxLength(25,ErrorMessage ="You can not enter more then 25 characters")]
         public string Name { get; set; }
         [Required(ErrorMessage = "Can not be empty!")]
         [MaxLength(50, ErrorMessage = "You can not enter more then 50 characters")]
         public string Surname { get; set; }
-        public DateTime CreateDate { get; set; }=DateTime.Now;
+        public DateTime CreateDate =>DateTime.Now;
 
-        public Status Status { get; set; } = Status.Active;
+        public Status Status=> Status.Active;
         [BirthDateExtension(ErrorMessage = "The employee must be over 18 years old.")]
 
         public DateTime BirthDate { get; set; }
-        public Roles Roles { get; set; } = Roles.Manager;
+        public Roles Roles => Roles.Manager;
+        
         public string EmailAddress { get; set; }
         public string Password { get; set; }
         public string? ImagePath { get; set; }
