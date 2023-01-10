@@ -18,7 +18,7 @@ namespace EcommerceApp.API.Controllers
             _adminService = adminService;
         }
 
-        [HttpGet("GetManagers/Ağlayanserkan")]
+        [HttpGet("GetManagers")]
         public async Task<ActionResult<List<ListOfManagerVM>>> GetAllManagers()
         {
             var managers = await _adminService.GetManagers();
@@ -48,8 +48,8 @@ namespace EcommerceApp.API.Controllers
             await _adminService.DeleteManager(id);
             return Ok();
         }
-        [HttpPost]
-        public async Task<ActionResult> CreateManager([FromBody]AddManagerDTO addManagerDTO)
+        [HttpPost("PostManager")]
+        public async Task<ActionResult> CreateManager([FromForm]AddManagerDTO addManagerDTO)
         {
             try
             {

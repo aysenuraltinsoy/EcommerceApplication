@@ -85,3 +85,5 @@ C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Presentation\EcommerceApp.
 C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Presentation\EcommerceApp.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Presentation\EcommerceApp.API\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Presentation\EcommerceApp.API\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Presentation\EcommerceApp.API\bin\Debug\net7.0\EcommerceApp.API.staticwebassets.runtime.json
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Presentation\EcommerceApp.API\bin\Debug\net7.0\Newtonsoft.Json.dll

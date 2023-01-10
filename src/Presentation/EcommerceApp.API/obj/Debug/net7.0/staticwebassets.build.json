@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "DY/0pjoT6PXx6B06WZT8MYTKQwQVDn8xWmZT+9+gyqo=",
+  "Hash": "sg+vJHCIE9WXUxdPPrjR1vn7W9zQ45rRYEBJoSDOQ1w=",
   "Source": "EcommerceApp.API",
   "BasePath": "_content/EcommerceApp.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EcommerceApp.API\\wwwroot",
+      "Source": "EcommerceApp.API",
+      "ContentRoot": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\mvc\\EcommerceApp\\src\\Presentation\\EcommerceApp.API\\wwwroot\\",
+      "BasePath": "_content/EcommerceApp.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

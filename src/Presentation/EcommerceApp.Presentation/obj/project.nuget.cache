@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B9W1g3XIjkiKOz+yryO1OHx3Hn7xNnSDKuC+lyKEQ+WfoYeI3X1G52YBYunqbyRnfE4w1BKdHcZKAMsZn3nPuA==",
+  "dgSpecHash": "n4tZuCug1uLqY9j4WBLAQITr7FEWWose+pX7Sty0XT7jxsWwBNCfFbcwqVWhLDKaenXyVH9dApFkoAE+jXCDTQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\mvc\\EcommerceApp\\src\\Presentation\\EcommerceApp.Presentation\\EcommerceApp.Presentation.csproj",
   "expectedPackageFiles": [
@@ -79,7 +79,7 @@
     "C:\\Users\\aalti\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\aalti\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\aalti\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\nuget.common\\6.3.1\\nuget.common.6.3.1.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\nuget.configuration\\6.3.1\\nuget.configuration.6.3.1.nupkg.sha512",
     "C:\\Users\\aalti\\.nuget\\packages\\nuget.dependencyresolver.core\\6.3.1\\nuget.dependencyresolver.core.6.3.1.nupkg.sha512",
