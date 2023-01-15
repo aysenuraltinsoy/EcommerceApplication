@@ -4,6 +4,7 @@ using Ecommerce.Infrastructure.Repositories;
 using EcommerceApp.Application.AutoMapper;
 using EcommerceApp.Application.Services.AdminService;
 using EcommerceApp.Application.Services.LoginService;
+using EcommerceApp.Application.Services.ManagerService;
 using EcommerceApp.Domain.Repositories;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,7 @@ namespace EcommerceApp.Application.IoC
             builder.RegisterType<EmployeeRepo>().As<IEmployeeRepo>().InstancePerLifetimeScope();
             builder.RegisterType<AdminService>().As<IAdminService>().InstancePerLifetimeScope();
             builder.RegisterType<LoginService>().As<ILoginService>().InstancePerLifetimeScope();
+            builder.RegisterType<ManagerService>().As<IManagerService>().InstancePerLifetimeScope();
            
             builder.Register(context => new MapperConfiguration(cfg =>
             {

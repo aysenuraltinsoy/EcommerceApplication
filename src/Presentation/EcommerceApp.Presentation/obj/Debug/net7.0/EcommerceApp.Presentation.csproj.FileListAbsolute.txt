@@ -285,3 +285,4 @@ C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Presentation\EcommerceApp.
 C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Presentation\EcommerceApp.Presentation\bin\Debug\net7.0\EcommerceApp.Application.dll
 C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Presentation\EcommerceApp.Presentation\bin\Debug\net7.0\EcommerceApp.Application.pdb
 C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Presentation\EcommerceApp.Presentation\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\aalti\Desktop\BilgeAdam\mvc\EcommerceApp\src\Presentation\EcommerceApp.Presentation\obj\Debug\net7.0\scopedcss\Areas\Manager\Views\Shared\_Layout.cshtml.rz.scp.css

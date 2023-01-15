@@ -15,9 +15,13 @@ namespace EcommerceApp.Application.AutoMapper
         public Mapping()
         {
             CreateMap<Employee, AddManagerDTO>().ReverseMap();
+            CreateMap<Employee, AddPersonelDTO>().ReverseMap();
             CreateMap<Employee, ListOfManagerVM>().ReverseMap();
+            CreateMap<Employee, ListOfPersonelVM>().ReverseMap();
             CreateMap<UpdateManagerDTO, UpdateManagerVM>().ReverseMap();
             CreateMap<UpdateManagerDTO, Employee>().ReverseMap();
+            CreateMap<UpdatePersonelDTO, Employee>().ReverseMap();
+            CreateMap<UpdatePersonelDTO, Employee>().ReverseMap();
         }
     }
 }
